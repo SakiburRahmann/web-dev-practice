@@ -1,0 +1,35 @@
+#profile {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-align: center;
+}
+
+#profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#counter {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-align: center;
+}
+
+#counter button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+#count {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
