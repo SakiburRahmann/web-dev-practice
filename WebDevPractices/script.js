@@ -34,7 +34,7 @@ document.getElementById("submitBtn").onclick = function() {
 */
 
 
-const increaseBtn = document.getElementById("increaseBtn");
+/*const increaseBtn = document.getElementById("increaseBtn");
 const decreaseBtn = document.getElementById("decreaseBtn");
 const resetBtn = document.getElementById("resetBtn");
 const countLabel = document.getElementById("countLabel");
@@ -54,4 +54,4 @@ decreaseBtn.onclick = function() {
 resetBtn.onclick = function() {
     count = 0;
     countLabel.textContent = count;
-}
+}*/
