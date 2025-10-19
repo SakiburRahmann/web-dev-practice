@@ -13,6 +13,11 @@ body {
   margin-bottom: 40px;
 }
 
+.content {
+  top: 50px;
+  position: relative;
+}
+
 .nav-container {
   position: absolute;
   top: 10px;
@@ -35,3 +40,23 @@ body {
   font-size: 15px;
 }
 
+#counterContent {
+  text-align: center;
+  font-size: 4em;
+}
+
+.counterBtns {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.counterBtns:hover {
+  background-color: rgb(0, 225, 255);
+}
