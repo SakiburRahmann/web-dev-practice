@@ -1,25 +1,36 @@
 body {
-    background-color: black;
-    font-family: Arial, sans-serif;
-    font-size: 2em;
-    color: White;
-    text-align: center;
-
+  background-color: black;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgb(172, 162, 162);
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    text-align: center;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
+#header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-.button:hover {
-    background-color: White;
+.nav-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 10px;          
 }
+
+.nav-container a {
+  color: rgb(51, 183, 188);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s; 
+}
+
+.nav-container a:hover {
+  color: rgb(0, 255, 242);
+}
+
